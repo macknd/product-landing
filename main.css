@@ -1,0 +1,24 @@
+.topbar{
+    display: flex;
+}
+
+.topbar{
+    overflow: hidden;
+    background-color: greenyellow;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.main{
+    margin-top: 80px;
+}
+
+#header-img{
+    height: 50px;
+}
+
+@media only screen and (max-width: 566px){
+    #video{
+        width: 300px;
+    }
+}
